@@ -1,9 +1,7 @@
 function About() {
   return (
     <div className="relative pt-[100px]" id="about">
-      <div className="text-gray-600 sm:text-[200px] text-[50px  ] font-bold absolute z-10 right-0">
-        <p>About</p>
-      </div>
+
       <div className="relative z-20 px-5 ">
         <div className="sm:flex w-full justify-between">
           <div>
