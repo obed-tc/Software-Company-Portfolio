@@ -1,7 +1,7 @@
 import mapa from "./../assets/mapa2.png";
 function Contact() {
   return (
-    <div className="relative pt-[100px]">
+    <div id="contact" className="relative pt-[100px]">
       <div className="text-gray-600 sm:text-[200px] text-[50px  ] font-bold absolute z-10 right-0">
         <p>Contact</p>
       </div>
