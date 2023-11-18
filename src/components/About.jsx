@@ -7,7 +7,7 @@ function About() {
           <div>
             <p className="text-gray-600 ">*/*</p>
 
-            <h1 className="text-primary-600 font-bold text-[50px]">
+            <h1 className="text-primary-600 font-bold text-center sm:text-start text-[50px]">
               Sobre VAIXS
             </h1>
             <p className="text-gray-600 ">*/*</p>
