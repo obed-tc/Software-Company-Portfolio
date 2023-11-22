@@ -1,5 +1,5 @@
 import { RiWhatsappFill } from "react-icons/ri";
-import { FaFacebookMessenger, FaFacebook } from "react-icons/fa";
+import { FaFacebookMessenger,FaFacebook } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="flex flex-col sm:w-[40vw]">
+          <a href="#" className="flex flex-col sm:w-[40vw]">
               <span className=" text-2xl font-semibold whitespace-nowrap dark:text-white mb-4">
                 Soluciones Virtuales VAIXS
               </span>
@@ -25,28 +25,28 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li>
-                  <a href="#" className="hover:text-white mb-2 text-sm">
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Inicio
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white mb-2 text-sm">
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Sobre VAIXS
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white mb-2 text-sm">
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Lo que hacemos
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white mb-2 text-sm">
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Portafolio
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" className="hover:text-white mb-2 text-sm">
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Hosting
                   </a>
                 </li>
@@ -88,14 +88,16 @@ const Footer = () => {
                 </p>
 
                 <p className="mt-2 text-xs">
-                  <b>Celular:</b>
-                  <br />
-                  +591 68525787
+                <b>Celular:</b> 
+                <br/>
+                +591 68525787
+
                 </p>
                 <p className="mt-2 text-xs">
-                  <b>Correo:</b>
-                  <br />
-                  victorvirtual@gmail.com.com
+                <b>Correo:</b>
+                <br/>
+
+                victorvirtual@gmail.com.com
                 </p>
               </p>
             </div>
@@ -108,7 +110,7 @@ const Footer = () => {
             <b> VAIXS</b>
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
-            <a
+          <a
               href="https://api.whatsapp.com/send/?phone=%2B59168525787&text&type=phone_number&app_absent=0"
               className="text-gray-500 text-[18px] hover:text-gray-900 dark:hover:text-white ms-5"
             >
@@ -120,6 +122,7 @@ const Footer = () => {
             >
               <FaFacebook></FaFacebook>
             </a>
+
 
             <a
               href="https://www.facebook.com/messages/t/113296350403789"
