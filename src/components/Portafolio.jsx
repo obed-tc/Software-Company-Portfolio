@@ -1,4 +1,3 @@
-
 function Portafolio() {
   const logos = [
     'http://www.vaixs.net/img/SededeCBBA.png',
@@ -10,12 +9,14 @@ function Portafolio() {
   ];
 
   return (
-    <div className="container mx-auto py-8 px-5 sm:pt-[120px]" id="portafolio">
-            <p className="text-gray-600 ">*/*</p>
-            <h1 className="text-primary-600 font-bold text-center sm:text-start text-[50px]">
+    <div className="w-full py-8 pt-[100px] sm:h-screen  bg-white" id="portafolio">
+            <h1 className="text-primary-600 w-full font-bold  text-[50px] text-center">
                 Nuestros clientes
             </h1>
-            <p className="text-gray-600 ">*/*</p>
+                        <div className="flex justify-center">
+            <div className=" w-[200px] h-[3px] mb-[20px] bg-primary-500"></div>
+
+          </div>
       <div className="flex flex-wrap justify-center items-center">
         {logos.map((logo, index) => (
           <div
